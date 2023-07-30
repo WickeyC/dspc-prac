@@ -1,4 +1,0 @@
-﻿  L2 UDP client.cpp
-C:\Users\TARUMT\source\repos\prac2\prac2\L2 UDP client.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\TARUMT\source\repos\prac2\prac2\L2 UDP client.cpp(53,92): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  prac2.vcxproj -> C:\Users\TARUMT\source\repos\prac2\x64\Debug\prac2.exe

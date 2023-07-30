@@ -1,0 +1,3 @@
+﻿  L2 UDP server.cpp
+C:\Users\User\Desktop\dspc-prac\prac2\L2 UDP server.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  prac2.vcxproj -> C:\Users\User\Desktop\dspc-prac\Debug\prac2.exe

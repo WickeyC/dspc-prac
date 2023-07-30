@@ -1,0 +1,5 @@
+﻿  P1Q1Client.cpp
+C:\Users\User\Desktop\dspc-prac\prac1\P1Q1Client.cpp(12,32): warning C4081: expected 'newline'; found '.'
+C:\Users\User\Desktop\dspc-prac\prac1\P1Q1Client.cpp(25,23): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\User\Desktop\dspc-prac\prac1\P1Q1Client.cpp(18,24): warning C4101: 'client_addr': unreferenced local variable
+  prac1.vcxproj -> C:\Users\User\Desktop\dspc-prac\x64\Debug\prac1.exe

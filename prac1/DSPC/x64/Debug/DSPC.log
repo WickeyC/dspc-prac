@@ -1,6 +1,0 @@
-﻿  P1server.cpp
-C:\Users\TARUMT\source\repos\DSPC\DSPC\P1server.cpp(12,32): warning C4081: expected 'newline'; found '.'
-C:\Users\TARUMT\source\repos\DSPC\DSPC\P1server.cpp(24,23): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-C:\Users\TARUMT\source\repos\DSPC\DSPC\P1server.cpp(46,27): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-C:\Users\TARUMT\source\repos\DSPC\DSPC\P1server.cpp(58,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  DSPC.vcxproj -> C:\Users\TARUMT\source\repos\DSPC\x64\Debug\DSPC.exe
