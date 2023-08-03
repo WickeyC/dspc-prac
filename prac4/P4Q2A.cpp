@@ -1,12 +1,16 @@
 // P4Q2.cpp : Defines the entry point for the console application.
 //
 
+// Output:
+// 49999.500000
+// Original work took 0.008939 seconds
+
 #include <stdio.h>
 #include <cstdlib>
 #include "omp.h"
 #define NTHREAD 5
 
-const long MAX = 100000;
+const long MAX = 10000000;
 
 int main()
 {
@@ -32,18 +36,18 @@ int main()
     #pragma omp parallel 
     {
         int i;
-        double localTotal;
+        double sub_total;
         //NTHREAD
         int size = omp_get_num_threads();
         //id of the processor running
         int rank = omp_get_thread_num();
 
-        for (i = rank, localTotal = 0.0; i < MAX; i = i + size) {
-            localTotal += A[i];
+        for (i = rank, sub_total = 0.0; i < MAX; i = i + size) {
+            sub_total += A[i];
         }
 
         #pragma omp critical 
-        total += localTotal;
+        total += sub_total;
     }
 
     double end_time = omp_get_wtime();

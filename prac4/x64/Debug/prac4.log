@@ -1,1 +1,4 @@
-﻿  prac4.vcxproj -> C:\Users\TARUMT\Desktop\dspc-prac\x64\Debug\prac4.exe
+﻿  P4Q4.cpp
+C:\Users\TARUMT\Desktop\dspc-prac\prac4\P4Q4.cpp(79,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\TARUMT\Desktop\dspc-prac\prac4\P4Q4.cpp(83,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  prac4.vcxproj -> C:\Users\TARUMT\Desktop\dspc-prac\x64\Debug\prac4.exe
