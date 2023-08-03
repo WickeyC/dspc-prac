@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="P4Q1.cpp" />
+    <ClCompile Include="P4Q2A.cpp" />
+    <ClCompile Include="P4Q2B.cpp" />
+    <ClCompile Include="P4Q2Original.cpp" />
+    <ClCompile Include="P4Q3.cpp" />
     <ClCompile Include="P4Q4.cpp" />
+    <ClCompile Include="P4Q4Original.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
