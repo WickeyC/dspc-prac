@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P3Q1.cpp" />
+    <ClCompile Include="P3Q2A.cpp" />
+    <ClCompile Include="P3Q2B.cpp" />
+    <ClCompile Include="P3Q2C.cpp" />
+    <ClCompile Include="P3Q3.cpp" />
+    <ClCompile Include="P3Q3Ori.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

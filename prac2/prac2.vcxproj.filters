@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="P2Q0thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="P2Q0thread2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P2Q3Client.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P2Q3Server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="P2Q1.cpp">
@@ -33,7 +30,10 @@
     <ClCompile Include="P2Q2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P2Q0thread.cpp">
+    <ClCompile Include="P2Q3Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P2Q3Server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

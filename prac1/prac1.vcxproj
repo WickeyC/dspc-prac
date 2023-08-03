@@ -20,9 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1Q1Client.cpp" />
-    <ClCompile Include="P1Q1Server.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="P1Q1Server.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

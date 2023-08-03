@@ -1,2 +1,8 @@
-﻿  P3Q2C.cpp
-  prac3.vcxproj -> C:\Users\User\Desktop\dspc-prac\x64\Debug\prac3.exe
+﻿P3Q2A.obj : error LNK2005: main already defined in P3Q1.obj
+P3Q2B.obj : error LNK2005: main already defined in P3Q1.obj
+P3Q2B.obj : error LNK2005: "double step" (?step@@3NA) already defined in P3Q2A.obj
+P3Q2C.obj : error LNK2005: main already defined in P3Q1.obj
+P3Q2C.obj : error LNK2005: "double step" (?step@@3NA) already defined in P3Q2A.obj
+P3Q3.obj : error LNK2005: main already defined in P3Q1.obj
+P3Q3Ori.obj : error LNK2005: main already defined in P3Q1.obj
+C:\Users\TARUMT\Desktop\dspc-prac\x64\Debug\prac3.exe : fatal error LNK1169: one or more multiply defined symbols found
