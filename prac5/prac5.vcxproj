@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="P5Q1.cpp" />
+    <ClCompile Include="P5Q2.cpp" />
+    <ClCompile Include="P5Q3.cpp" />
+    <ClCompile Include="P5Q4.cpp" />
+    <ClCompile Include="P5Q5A.cpp" />
+    <ClCompile Include="P5Q5B.cpp" />
+    <ClCompile Include="P5Q5Original.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,11 +135,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="P5Q1.cpp" />
-    <ClCompile Include="P5Q4.cpp" />
-    <ClCompile Include="P5Q5.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

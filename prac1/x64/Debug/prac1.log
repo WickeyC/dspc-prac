@@ -1,1 +1,12 @@
-﻿
+﻿  P1Q1Client.cpp
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Client.cpp(12,32): warning C4081: expected 'newline'; found '.'
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Client.cpp(25,23): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Client.cpp(18,24): warning C4101: 'client_addr': unreferenced local variable
+  P1Q1Server.cpp
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Server.cpp(12,32): warning C4081: expected 'newline'; found '.'
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Server.cpp(24,23): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Server.cpp(48,27): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\TARUMT\Desktop\dspc-prac\prac1\P1Q1Server.cpp(60,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+P1Q1Server.obj : error LNK2005: main already defined in P1Q1Client.obj
+C:\Users\TARUMT\Desktop\dspc-prac\x64\Debug\prac1.exe : fatal error LNK1169: one or more multiply defined symbols found

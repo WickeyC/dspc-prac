@@ -18,10 +18,22 @@
     <ClCompile Include="P5Q1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="P5Q2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P5Q3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="P5Q4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P5Q5.cpp">
+    <ClCompile Include="P5Q5A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P5Q5B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P5Q5Original.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

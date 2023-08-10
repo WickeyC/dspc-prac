@@ -4,6 +4,7 @@
 #include <vector>
 
 // mutex is an object
+// data racing causes result to be inconsistence (data racing of numEven)
 
 std::mutex increment;
 
@@ -14,7 +15,10 @@ void countEven(const std::vector<int>& numbers,
     {
         if (n % 2 == 0)
         {
+            increment.lock();
             numEven++;
+            increment.unlock();
+            /*std::cout << "thread: " << numEven << std::endl;*/
         }
     }
 }
@@ -32,8 +36,8 @@ int main() {
 
     int n = 0;
 
-    insert_numbers_into_vector(numbers1, 0, 10000);
-    insert_numbers_into_vector(numbers2, 20000, 10000);
+    insert_numbers_into_vector(numbers1, 0, 100000);
+    insert_numbers_into_vector(numbers2, 20000, 100000);
 
     std::thread t1(countEven, std::ref(numbers1), std::ref(n));
     std::thread t2(countEven, std::ref(numbers2), std::ref(n));
