@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prac3CUDA", "prac3CUDA\prac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prac5", "prac5\prac5.vcxproj", "{CF80C23A-1457-4CD4-9CA7-3F9E855E707E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prac6", "prac6\prac6.vcxproj", "{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{CF80C23A-1457-4CD4-9CA7-3F9E855E707E}.Release|x64.Build.0 = Release|x64
 		{CF80C23A-1457-4CD4-9CA7-3F9E855E707E}.Release|x86.ActiveCfg = Release|Win32
 		{CF80C23A-1457-4CD4-9CA7-3F9E855E707E}.Release|x86.Build.0 = Release|Win32
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Debug|x64.ActiveCfg = Debug|x64
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Debug|x64.Build.0 = Debug|x64
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Debug|x86.ActiveCfg = Debug|Win32
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Debug|x86.Build.0 = Debug|Win32
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Release|x64.ActiveCfg = Release|x64
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Release|x64.Build.0 = Release|x64
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Release|x86.ActiveCfg = Release|Win32
+		{92849425-C0AE-442D-ACEE-0A0A2DAAEF42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
